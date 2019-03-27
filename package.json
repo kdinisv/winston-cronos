@@ -1,0 +1,28 @@
+{
+  "name": "winston-cronos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/winston-cronos",
+  "dependencies": {
+    "moment": "^2.24.0",
+    "winston-transport": "^4.3.0"
+  },
+  "devDependencies": {
+    "abstract-winston-transport": "^0.5.1",
+    "mocha": "^6.0.2",
+    "winston": "^3.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdinisv/winston-cronos.git"
+  },
+  "author": "zybr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdinisv/winston-cronos/issues"
+  },
+  "homepage": "https://github.com/kdinisv/winston-cronos#readme"
+}
