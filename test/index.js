@@ -22,11 +22,6 @@ describe('winston-cronos', function () {
     });
 
     it('winston-cronos-send', function () {
-        log.info('test send')
-        // it('should be closeable', function () {
-        //     transport.close();
-        // });
+        log.info({a:1, b:'test send'})
     });
 });
-
-// test_suite({ name: 'Cronos', Transport: Cronos, construct: { host: 'lps', port: 3400 }})
