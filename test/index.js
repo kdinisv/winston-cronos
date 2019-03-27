@@ -22,6 +22,7 @@ describe('winston-cronos', function () {
     });
 
     it('winston-cronos-send', function () {
-        log.info({a:1, b:'test send'})
+        log.info("Привет мир")
+        log.info("Привет мир 2")
     });
 });
